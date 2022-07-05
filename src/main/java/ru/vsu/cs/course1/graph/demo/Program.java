@@ -119,16 +119,7 @@ public class Program {
      * @throws Exception
      */
     public static void main(String[] args) throws Exception {
-        /*
-        test1();
-        test2();
-        test3();
-        test4();
 
-        if (true) {
-            return;
-        }
-        */
         Locale.setDefault(Locale.ROOT);
         //SwingUtils.setLookAndFeelByName("Windows");
         //UIManager.setLookAndFeel(UIManager.getCrossPlatformLookAndFeelClassName());
