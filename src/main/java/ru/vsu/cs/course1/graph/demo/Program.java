@@ -37,7 +37,12 @@ import ru.vsu.cs.util.SwingUtils;
 
 public class Program {
 
-    public static void test1() throws IOException {
+    public static void test1() throws IOException {                // В задании было сказано, что мы можем описывать грфа с помощью языка dot,
+                                                                   // я пробовал в другом своем проекте это сделать, создав эти dot файлы, могу их скинуть, 
+                                                                   // я создал в проекте раздел тестирование, но не понял как применить свое решение к ним, и сделал по минимому, чтобы пользователь 
+                                                                   // либо вводя данные самому, либо из файла.
+                                                                   // это лишний код к моему заданию, но могу скинуть и неполучившийся проект.
+                                                                   
         Graph g = graph("example1").directed()
             .graphAttr().with(RankDir.LEFT_TO_RIGHT)
             .with(
